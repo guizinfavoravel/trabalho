@@ -1,4 +1,4 @@
-const Numero = (parseFloat(prompt("insira um nuemro")));
+const Numero = (parseFloat(prompt("insira um numero")));
 
 
 if(isNaN(Numero)){
