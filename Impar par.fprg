@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Impar par"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 01:22:44 "/>
+        <attribute name="created" value="REVTLUkxSFM7REVTS1RPUC1EMzFLSjBEOzIwMjUtMDQtMDc7IjEyOjU1OjQzICI7Mjc1Mw=="/>
+        <attribute name="edited" value="REVTLUkxSFM7REVTS1RPUC1EMzFLSjBEOzIwMjUtMDQtMDc7IjAxOjIyOjQ0ICI7MzsyODU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;insira o numero para saber se &#233; par&quot;" newline="True"/>
+            <input variable="Numero"/>
+            <if expression="Numero%2==0">
+                <then>
+                    <output expression="&quot;seu numero &#233; par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;seu numero &#233; impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

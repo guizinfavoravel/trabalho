@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Multiplo"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 01:26:15 "/>
+        <attribute name="created" value="REVTLUkxSFM7REVTS1RPUC1EMzFLSjBEOzIwMjUtMDQtMDc7IjAxOjIyOjQ4ICI7Mjc1MA=="/>
+        <attribute name="edited" value="REVTLUkxSFM7REVTS1RPUC1EMzFLSjBEOzIwMjUtMDQtMDc7IjAxOjI2OjE1ICI7MTsyODU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero" type="Real" array="False" size=""/>
+            <output expression="&quot;insira o numero para saber se &#233; multiplo de 5&quot;" newline="True"/>
+            <input variable="Numero"/>
+            <if expression="Numero % 5 ==0">
+                <then>
+                    <output expression="&quot;sim ele &#233; multiplo de 5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ele nao &#233; multiplo de 5&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
